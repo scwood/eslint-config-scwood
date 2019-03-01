@@ -1,6 +1,6 @@
 Got tired of settings this up manually for all my projects.
 
-If you wanted to use it (I don't know why you would) it's basically:
+If you want to use it (I don't know why you would) it's basically:
 
 - eslint:recommended
 - plugin:react/recommended
@@ -9,3 +9,5 @@ If you wanted to use it (I don't know why you would) it's basically:
     - no bracket spacing
     - single quote
     - trailing comma always
+
+`npm i --save-dev eslint-config-scwood`
