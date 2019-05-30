@@ -4,11 +4,12 @@ module.exports = {
     es6: true,
     node: true,
   },
+  parser: 'babel-eslint',
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
     },
-    ecmaVersion: 9,
+    ecmaVersion: 2019,
   },
   extends: [
     'eslint:recommended',
@@ -25,5 +26,10 @@ module.exports = {
         trailingComma: 'all',
       },
     ],
+  },
+  settings: {
+    react: {
+      version: 'detect',
+    },
   },
 };
