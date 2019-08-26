@@ -16,6 +16,7 @@ module.exports = {
     'plugin:react/recommended',
     'plugin:prettier/recommended',
   ],
+  plugins: ['react-hooks'],
   rules: {
     'prettier/prettier': [
       'error',
@@ -26,6 +27,8 @@ module.exports = {
         trailingComma: 'all',
       },
     ],
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'warn',
   },
   settings: {
     react: {
